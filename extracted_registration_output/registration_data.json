@@ -1,0 +1,14 @@
+{
+    "fields": {
+        "First_Name": null,
+        "Last_Name": null,
+        "DOB": null,
+        "Vehicle_Make": "FORD",
+        "Vehicle_Model": null,
+        "Vehicle_Color": null,
+        "Expiry_Date": "11/12/2024"
+    },
+    "images": [
+        "extracted_registration_output\\regcard6.png"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "fields": {
+        "First_Name": "JANE",
+        "Last_Name": "QUINCY",
+        "DL_Number": "G555-5555-2555-00",
+        "DOB": "08/28/1970",
+        "Issue_Date": "08/28/2005",
+        "Expiry_Date": "08/28/2010",
+        "Address": "12345 NORTH LAKE WISCONSIN PARKWAY SUITE 266",
+        "City": "BLACK RIVER FALLS",
+        "State": "WI",
+        "Postal_Code": "54615-0000"
+    },
+    "images": [
+        "extracted_output\\dlsample10.jpg",
+        "extracted_output\\license_photo_1761813787_1.png",
+        "extracted_output\\license_photo_1761813787_2.png"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "fields": {
+        "First_Name": "SIDHARRTH",
+        "Last_Name": "NARASIMHAN",
+        "DOB": null,
+        "Vehicle_Make": "TSMR",
+        "Vehicle_Model": "OE",
+        "Vehicle_Color": null,
+        "Expiry_Date": "02/2024"
+    },
+    "images": [
+        "extracted_output\\page1_img1.png"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+  "license_number": "011234568",
+  "first_name": "FNIMA",
+  "last_name": "Ifornia",
+  "dob": "08/31/1949",
+  "expiration_date": "08/31/2014",
+  "issue_date": "08/31/2009",
+  "address": "2570 24TH STREET",
+  "city": "ANYTOWN",
+  "state": "CA",
+  "postal_code": "95818",
+  "class": "C",
+  "sex": "F",
+  "height": "5'-05\"",
+  "weight": "125 lb",
+  "hair": "BRN",
+  "eyes": "BRN",
+  "dates_found": [
+    "08/31/2014",
+    "08/31/2009"
+  ]
+}
