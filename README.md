@@ -1,47 +1,41 @@
-🧠 AI-Based Document Extractor
+# 🧠 AI-Based Document Extractor  
 
-An intelligent document processing system built using Python, Streamlit, and Google Gemini AI, designed to automatically extract structured data from Driver’s Licenses and Vehicle Registration Cards.
+An **AI-powered intelligent document automation system** built using **Python**, **Streamlit**, and **Google Gemini AI**, designed to perform **OCR-based text extraction** and **structured field mapping** from documents like **Driving Licenses** and **Vehicle Registration Cards**.  
 
-🚀 Features
+---
 
-Upload and process images or PDFs via Streamlit interface
+### 🚀 **Key Features**  
 
-Auto-detects document type (Registration Card / Driving License)
+- 🧩 **AI-driven document parsing** using Gemini for structured text interpretation  
+- 📄 Upload and process **PDFs or images** via Streamlit’s file uploader  
+- 🔍 **OCR-based data extraction** using Tesseract and PyMuPDF for enhanced accuracy  
+- 🖼️ **Image preprocessing** and **photo region detection** using OpenCV  
+- 🧾 Generates clean, structured **JSON output** for seamless data integration  
+- 💾 Download extracted JSON and images for downstream automation workflows  
 
-Extracts key fields using OCR (Tesseract) and Gemini AI
+---
 
-Detects and crops driver’s photo using OpenCV
+### 🧰 **Tech Stack**  
 
-Outputs clean, structured JSON data
+- **Languages & Frameworks:** Python, Streamlit  
+- **Libraries:** OpenCV, PyMuPDF, pdf2image, pytesseract  
+- **AI Integration:** Google Gemini API for semantic field extraction  
+- **Utilities:** dotenv for secure key handling, pandas for structured data formatting  
 
-Downloadable extraction results
+---
 
-🧰 Tech Stack
+### ⚙️ **Setup Instructions**  
 
-Python, Streamlit, OpenCV, PyPDF2, PyMuPDF, pdf2image, pytesseract
+```bash
+# Clone the repository  
+git clone https://github.com/yourusername/AI-Document-Extractor.git  
+cd AI-Document-Extractor  
 
-Google Generative AI (Gemini) for intelligent text interpretation
+# Install dependencies  
+pip install -r requirements.txt  
 
-dotenv for secure API key management
+# Create .env file with your API key  
+GEMINI_API_KEY=your_api_key_here  
 
-⚙️ Setup Instructions
-
-Clone the repository
-
-git clone https://github.com/yourusername/AI-Document-Extractor.git
-cd AI-Document-Extractor
-
-
-Install dependencies
-
-pip install -r requirements.txt
-
-
-Create a .env file in the project root and add your Gemini API key:
-
-GEMINI_API_KEY=your_api_key_here
-
-
-Run the app
-
-streamlit run app.py
+# Run the Streamlit app  
+streamlit run app.py  
